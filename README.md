@@ -1,12 +1,12 @@
-## Comandos de la Wallet
+# Wallet Commands
 
-Utiliza el prefijo wallet para ejecutar los siguientes comandos:
+Use the wallet prefix to execute the following commands:
 
-- **create**: Crea una nueva Wallet.
-- **get-balance**: Obtiene información sobre la Wallet.
-- **get-address**: Obtiene la dirección actual de la Wallet.
-- **encrypt-key <key> <password>**: Encripta y almacena tu clave privada actual.
-- **decrypt-key <password>**: Obtiene tu clave privada almacenada.
-- **login <private key>**: Inicia sesión en una Wallet existente utilizando la clave privada.
-- **transaction <password> <address to send> <amount to send (Wei)>**: Realiza una transacción a otra Wallet.
-- **help [command]**: Muestra ayuda para un comando específico.
+- **create**: Create a new Wallet.
+- **get-balance**: Get information about the Wallet.
+- **get-address**: Get the current Wallet address.
+- **encrypt-key <key> <password>**: Encrypt and store your current private key.
+- **decrypt-key <password>**: Retrieve your stored private key.
+- **login <private key>**: Log in to an existing Wallet using the private key.
+- **transaction <password> <address to send> <amount to send (Wei)>**: Make a transaction to another Wallet.
+- **help [command]**: Display help for a specific command.
