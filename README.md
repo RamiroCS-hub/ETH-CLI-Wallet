@@ -1,6 +1,6 @@
 ## Comandos de la Wallet
 
-Utiliza el prefijo de la Wallet para ejecutar los siguientes comandos:
+Utiliza el prefijo wallet para ejecutar los siguientes comandos:
 
 - **create**: Crea una nueva Wallet.
 - **get-balance**: Obtiene información sobre la Wallet.
