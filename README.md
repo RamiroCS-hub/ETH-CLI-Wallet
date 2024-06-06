@@ -1,3 +1,7 @@
+# Wallet Instalation
+You can install the CLI wallet as an npm package using the following command:
+``` npm install my_eth_wallet```
+
 # Wallet Commands
 
 Use the wallet prefix to execute the following commands:
@@ -10,3 +14,6 @@ Use the wallet prefix to execute the following commands:
 - **login <private key>**: Log in to an existing Wallet using the private key.
 - **transaction <password> <address to send> <amount to send (Wei)>**: Make a transaction to another Wallet.
 - **help [command]**: Display help for a specific command.
+
+You need to provide an RPC node if you want to use the wallet. For example, in the .env file:
+``` TEST_NET= https: https://sepolia.infura.io/v3/YOUR_ID```
