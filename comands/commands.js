@@ -80,3 +80,9 @@ export const makeTransaction = async (password, keyTo, amount) => {
     console.log(chalk.magentaBright('To:'), tx.to)
     console.log('')
 }
+
+export const getGasPrice = async () => {
+    console.log('')
+    console.log(chalk.magentaBright('Gas price:'), await web3.eth.getGasPrice())
+    console.log('')
+}

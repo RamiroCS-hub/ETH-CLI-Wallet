@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 import { program }  from 'commander'
-import {createWallet, getBalance, getAddress, encryptKey, decryptKey, loginUserWithPrivateKey, makeTransaction} from './comands/commands.js'
+import {createWallet, getBalance, getAddress, encryptKey, decryptKey, loginUserWithPrivateKey, makeTransaction, getGasPrice} from './comands/commands.js'
 
 //const web3 = new Web3(process.env.TEST_NET)
 
@@ -51,6 +51,11 @@ program
   .argument('<amount to send (Wei)>')
   .action(makeTransaction)
 
+program
+  .command('gas-price')
+  .description('Get an aproximate price for gas')
+  .action(getGasPrice)
+  
 program.parse()
 /*
 web3.eth.getBlockNumber().then(console.log);
